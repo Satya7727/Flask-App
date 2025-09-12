@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry - Surya Homes</title>
+  <link rel="stylesheet" href="../static/CSS/enquiry.css">
+</head>
+<body>
+
+  <header class="header">
+    <h1>Surya Dream Homes</h1>
+    <nav>
+      <a href="/home">Home</a>
+      <a href="/projects">Projects</a>
+      <a href="/enquiry" class="active">Enquiry</a>
+      <a href="/about">About Us</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="enquiry-section">
+    <h2>Send Us Your Enquiry</h2>
+    <p>Please fill out the form below, and we will get back to you soon.</p>
+
+    <form action="/enquiry" method="POST" class="enquiry-form">
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="property_id">Select Property:</label>
+      <select id="property_id" name="property_id" required>
+        <option value="">-- Choose a Property --</option>
+        <option value="luxury_appartments">Luxury Appartments</option>
+        <option value="green_villas">Green Villas</option>
+        <option value="dream_heights">Dream Heights</option>
+      </select>
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="btn">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Surya Dream Homes. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>

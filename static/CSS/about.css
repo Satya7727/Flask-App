@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: lightcyan;
+}
+
+.header {
+  background: #2c3e50;
+  padding: 0px 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #2c3e50;
+  color: white;
+}
+
+
+.about-hero {
+  text-align: center;
+  background-color: lightcyan;
+  padding: 20px 20px;
+}
+
+.about-hero h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.about-hero p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.about-content {
+  background-color: lightcyan;
+  margin: 0px auto;
+  padding: 0 200px;
+}
+
+.about-content h3 {
+  font-size: 1.3rem;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+.about-content p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  margin-top: 8px;
+}
