@@ -6,7 +6,7 @@ def create_connection():
   connection = mysql.connector.connect(
     host="satya7727.mysql.pythonanywhere-services.com",
     user="satya7727",  # your username
-    password="your_db_password",
+    password="Prince@8423",
     database="satya7727$mini_project"
 )
   return connection
