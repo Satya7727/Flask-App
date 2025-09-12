@@ -53,6 +53,10 @@ def home():
 def project():
    return render_template("Project.html")
 
+# Logout
+@app.route("/logout")
+def logout():
+  return render_template("login.html")
 
 @app.route("/enquiry",methods=["POST"])
 def enquiry_save():
