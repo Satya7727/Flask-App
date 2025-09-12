@@ -4,10 +4,10 @@ from mysql.connector import Error
 
 def create_connection():
   connection = mysql.connector.connect(
-    host="satya7727.mysql.pythonanywhere-services.com",
-    user="satya7727",  # your username
-    password="Prince@8423",
-    database="satya7727$mini_project"
+  host="localhost",
+  database="mini_project",
+  user="root",
+  password="Prince@8423"
 )
   return connection
 
